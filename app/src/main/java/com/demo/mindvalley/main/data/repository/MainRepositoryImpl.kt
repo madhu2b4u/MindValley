@@ -1,9 +1,8 @@
 package com.demo.mindvalley.main.data.repository
 
-
 import androidx.lifecycle.liveData
 import com.demo.mindvalley.common.Result
-import com.demo.mindvalley.main.data.local.source.LocalDataSourceImpl
+import com.demo.mindvalley.main.data.local.source.LocalDataSource
 import com.demo.mindvalley.main.data.models.categoriesmodel.Category
 import com.demo.mindvalley.main.data.models.channelmodel.Channel
 import com.demo.mindvalley.main.data.models.episodemodel.Media
@@ -12,7 +11,7 @@ import javax.inject.Inject
 
 class MainRepositoryImpl @Inject constructor(
     private val remoteDataSource: MainRemoteDataSource,
-    private val localDataSource: LocalDataSourceImpl
+    private val localDataSource: LocalDataSource
 ) : MainRepository {
 
     override suspend fun getCategories(mustFetchFromNetwork: Boolean) = liveData {

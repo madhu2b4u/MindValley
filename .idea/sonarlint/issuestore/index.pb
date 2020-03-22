@@ -131,8 +131,6 @@ l
 Lapp/src/main/java/com/demo/mindvalley/main/data/repository/MainRepository.kt,d/8/d8b67e7ca3d2889aafd7a722b4be92d9eea82290
 p
 @app/src/main/java/com/demo/mindvalley/main/domain/UseCaseImpl.kt,2/9/29d0d0c11b424812d15e03eaff24bad1681d6de3
-h
-8app/src/test/java/com/demo/mindvalley/ExampleUnitTest.kt,7/7/77803319a6d31011d1d37c5f86bd379935c6dde3
 i
 9app/src/test/java/com/demo/mindvalley/LiveDataTestUtil.kt,e/4/e439e6e4b8781dc1ce224b009b5232c003a87605
 b
@@ -141,3 +139,9 @@ j
 :app/src/test/java/com/demo/mindvalley/MainCoroutineRule.kt,a/6/a6d6b9f5771259e93dda1b13fbd4e83f71ccba01
 ‚
 Rapp/src/main/java/com/demo/mindvalley/main/presentation/viewmodel/MainViewModel.kt,c/9/c921451106fdaa6bd795dc3fc26ff2ec99104322
+Y
+)app/src/main/res/layout/activity_home.xml,8/4/84bbfd95b490b92591d2b037417f036942315d57
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+v
+Fapp/src/test/java/com/demo/mindvalley/main/MainRemoteDataSourceTest.kt,e/4/e4a4c5742e3decc154660cf81852b43da0849e02
