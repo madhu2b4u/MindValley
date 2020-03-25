@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/sfSeries"
+        android:layout_width="319dp"
+        android:layout_height="172dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_black_rectangle">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSeriesImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+    <TextView
+        android:id="@+id/tvSeriesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:lineSpacingExtra="1sp"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:translationY="-0.48sp" />
+
+
+</LinearLayout>

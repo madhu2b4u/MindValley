@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MindValley</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="channels">Channels</string>
+    <string name="episodes">New Episodes</string>
+    <string name="categories">Browse by categories</string>
+    <string name="no_category_available">No category available</string>
+    <string name="channel_not_available">Channel not available</string>
+    <string name="title_not_available">Title not available</string>
 </resources>
