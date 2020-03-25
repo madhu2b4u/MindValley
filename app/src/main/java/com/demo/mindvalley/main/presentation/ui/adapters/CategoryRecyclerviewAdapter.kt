@@ -6,9 +6,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.demo.mindvalley.R
-import com.demo.mindvalley.assemblyrecyclerview.NotifyableAdapter
-import com.demo.mindvalley.assemblyrecyclerview.OnNotifyDatasetChangeListener
-import com.demo.mindvalley.assemblyrecyclerview.RecyclerViewAssemblerElement
 import com.demo.mindvalley.main.data.models.categoriesmodel.Category
 
 

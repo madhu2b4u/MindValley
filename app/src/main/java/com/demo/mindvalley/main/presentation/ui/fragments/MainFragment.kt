@@ -10,8 +10,6 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.demo.mindvalley.R
-import com.demo.mindvalley.assemblyrecyclerview.RecyclerViewAssemblerAdapter
-import com.demo.mindvalley.assemblyrecyclerview.RecyclerViewAssemblerElement
 import com.demo.mindvalley.common.Status
 import com.demo.mindvalley.common.Utils
 import com.demo.mindvalley.common.ViewModelFactory

@@ -17,9 +17,6 @@ import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
 import com.demo.mindvalley.R
-import com.demo.mindvalley.assemblyrecyclerview.NotifyableAdapter
-import com.demo.mindvalley.assemblyrecyclerview.OnNotifyDatasetChangeListener
-import com.demo.mindvalley.assemblyrecyclerview.RecyclerViewAssemblerElement
 import com.demo.mindvalley.main.data.models.episodemodel.Media
 import com.facebook.shimmer.ShimmerFrameLayout
 
