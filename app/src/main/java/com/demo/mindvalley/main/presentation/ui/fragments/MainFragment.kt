@@ -87,6 +87,7 @@ class MainFragment : DaggerFragment() {
 
             mainViewModel.channelResult.observe(this@MainFragment, Observer {
                 when (it.status) {
+
                     Status.SUCCESS -> {
                         it.data?.let { channelList ->
                             channels = channelList

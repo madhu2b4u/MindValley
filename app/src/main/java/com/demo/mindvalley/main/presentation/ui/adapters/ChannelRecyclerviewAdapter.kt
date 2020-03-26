@@ -41,17 +41,20 @@ class ChannelsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     private val name: TextView = itemView.findViewById(R.id.tvChannelName)
     private val count: TextView = itemView.findViewById(R.id.tvChannelCount)
     private val shimmer: ShimmerFrameLayout = itemView.findViewById(R.id.sfChannel)
-    private val channelsRecycler: RecyclerView = itemView.findViewById(R.id.rvChannels)
+    private val channelsRecycler: RecyclerView = itemView.findViewById(R.id.rvSeries)
 
     fun bind(channel: Channel) {
+
+        val context = name.context
+        
         if (channel.title.isNotEmpty())
             name.text = channel.title
         else
-            name.text = "Name not available"
+            name.text = context.getString(R.string.name_not_available)
 
 
         if (channel.series.isEmpty()) {
-            count.text = "${channel.mediaCount} Episodes"
+            count.text = "${channel.mediaCount}" + " " + context.getString(R.string.episode)
             channelsRecycler.apply {
                 setHasFixedSize(true)
                 layoutManager =
@@ -60,7 +63,7 @@ class ChannelsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             }
 
         } else {
-            count.text = "${channel.mediaCount} Series"
+            count.text = "${channel.mediaCount}" + " " + context.getString(R.string.series)
             channelsRecycler.apply {
                 setHasFixedSize(true)
                 layoutManager =

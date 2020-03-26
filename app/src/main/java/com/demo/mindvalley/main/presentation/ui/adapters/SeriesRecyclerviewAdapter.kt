@@ -47,7 +47,7 @@ class SeriesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     fun bind(sery: LatestMedia) {
         if (sery.title.isEmpty())
-            title.text = "Series not available"
+            title.text = title.context.getString(R.string.series_not_available)
         else
             title.text = sery.title
 

@@ -13,11 +13,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tvCategoryTitle"
+                android:id="@+id/tvPageTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_medium"

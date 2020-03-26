@@ -48,7 +48,7 @@ class CourseViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     fun bind(course: LatestMedia) {
         if (course.title.isNullOrEmpty())
-            title.text = "Title not available"
+            title.text = title.context.getString(R.string.title_not_available)
         else
             title.text = course.title
 
