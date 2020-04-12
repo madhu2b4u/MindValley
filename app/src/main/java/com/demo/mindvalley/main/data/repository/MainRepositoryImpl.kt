@@ -28,6 +28,8 @@ class MainRepositoryImpl @Inject constructor(
             emit(Result.success(categories))
         } catch (exception: Exception) {
             emit(Result.error(exception.message ?: ""))
+
+            
         }
     }
 
