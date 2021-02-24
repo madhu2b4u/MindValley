@@ -1,6 +1,4 @@
-# MindValley
-Project demostration of a simple master detail flow with a list of episodes,channels,series,categories, as picture items on a list view, details view.
-This project is based in Kotlin and MVVM Design.
+
 
 ## Component Demonstrated
 - ViewModel
